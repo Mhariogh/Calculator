@@ -1,6 +1,6 @@
 num1 = float(input("Enter the 1st number :  "))
-num2 = float(input("Enter the 2nd number :  "))
 operator = input("Enter an operator (+,*,-,/):")
+num2 = float(input("Enter the 2nd number :  "))
 
 
 if      operator == "+" :
@@ -17,6 +17,7 @@ elif   operator == "/":
        print(round(result, 3))
 else:
     print(f"{operator} is not valid operator")
+
 
 
 
